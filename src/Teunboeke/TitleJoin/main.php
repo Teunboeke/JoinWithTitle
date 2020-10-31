@@ -43,7 +43,7 @@ class main extends PluginBase implements Listener{
     public function onJoin(PlayerJoinEvent $event){
             $player = $event->getPlayer();
             if($this->getConfig()->get("Title-on-join") == true){
-                        $this->getServer()->getScheduler()->scheduleDelayedTask(new SendTitleTask($this, $player), 30);
+                        $this->getServer()->getScheduler()->scheduleDelayedTask(new SendTitle($this, $player), 30);
                     }
             }
   }
