@@ -37,3 +37,13 @@ class main extends PluginBase implements Listener{
       		$msg = str_replace("&o",TextFormat::ITALIC,$msg);
       		$msg = str_replace("&l",TextFormat::BOLD,$msg);
       		$msg = str_replace("&r",TextFormat::RESET,$msg);
+      		return $msg;
+	}
+  
+    public function onJoin(PlayerJoinEvent $event){
+            $player = $event->getPlayer();
+            if($this->getConfig()->get("Title-on-join") == true){
+                        $this->getServer()->getScheduler()->scheduleDelayedTask(new SendTitleTask($this, $player), 30);
+                    }
+            }
+  }
