@@ -1,6 +1,6 @@
 <?php
 
-namespace Teunboeke\Titlejoin;
+namespace Teunboeke\JoinWithTitle;
 
 use pocketmine\plugin\Plugin;
 use pocketmine\scheduler\PluginTask;
