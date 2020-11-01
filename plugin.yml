@@ -1,5 +1,5 @@
 name: JoinWithTitle 
 author: Teunboeke
 version: 1.0.0
-main: Teunboeke\TitleJoin\main
+main: Teunboeke\JoinWithTitle\main
 api: 3.15.2
