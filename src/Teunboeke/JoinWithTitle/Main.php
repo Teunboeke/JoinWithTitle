@@ -14,7 +14,7 @@ class Main extends PluginBase implements Listener{
             @mkdir($this->getDataFolder());
             $this->saveDefaultConfig();
             $this->getServer()->getPluginManager()->registerEvents($this, $this);
-            $this->getServer()->getLogger()->notice("TitleJoin by Teunboeke Enabled!");
+            $this->getServer()->getLogger()->notice("JoinWithTitle by Teunboeke Enabled!");
         }
   
     public function translateColors($string){
