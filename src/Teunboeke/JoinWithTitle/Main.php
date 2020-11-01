@@ -1,6 +1,6 @@
 <?php
 
-namespace Teunboeke\TitleJoin;
+namespace Teunboeke\JoinWithTitle;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\player\PlayerJoinEvent;
