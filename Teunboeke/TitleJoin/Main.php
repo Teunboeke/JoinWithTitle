@@ -8,7 +8,7 @@ use pocketmine\event\Listener;
 use pocketmine\utils\Config;
 use pocketmine\utils\TextFormat;
 
-class main extends PluginBase implements Listener{
+class Main extends PluginBase implements Listener{
   
     public function onEnable(){
             @mkdir($this->getDataFolder());
