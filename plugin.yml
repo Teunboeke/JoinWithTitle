@@ -1,5 +1,5 @@
 name: JoinWithTitle 
 author: Teunboeke 
-version:
+version: 1.0.0
 main: Teunboeke\JoinWithTitle\Main
-api 3.13.0
+api 3.15.2
